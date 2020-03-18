@@ -1,11 +1,6 @@
 package com.epam.practice.tdd_junit_hometask;
 
-;
 
-/**
- * Hello world!
- *
- */
 public class RemovingChars 
 {
 	 String removeChars(String input)
