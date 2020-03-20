@@ -1,6 +1,5 @@
 package com.epam.practice.tdd_junit_hometask;
 
-
 public class RemovingChars 
 {
 	 String removeChars(String input)
@@ -15,10 +14,12 @@ public class RemovingChars
 			}
 			else
 			{
-				if(input.charAt(0)=='A')
-					res=input.substring(1);
-				if(res.equals("A"))
+				if(input.charAt(0)=='A' && input.charAt(1)=='A' )
 					res="";
+				else if(input.charAt(0)=='A' )
+					res=""+input.charAt(1);
+				else if(input.charAt(1)=='A' )
+					res=""+input.charAt(0);
 			}
 		}
 		else
